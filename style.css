@@ -1,0 +1,44 @@
+body {
+    background-image: url('background_1.webp');
+    background-size: cover;
+    background-attachment: fixed;
+  }
+
+  /* Style for the card container */
+  .card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 500px;
+  }
+  .card:hover
+  {
+    box-shadow: 0 20px 28px 0 rgb(0, 0, 0);
+    transition: 0.3s;
+    width: 40%;
+    
+    
+  }
+
+  /* Style for the form inputs */
+  input {
+    border: 2px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 100%;
+  }
+
+/*Style for the form submit button*/
+  button {
+    background-color: #0051ff;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    padding: 12px 20px;
+    
+  }
